@@ -2557,7 +2557,11 @@ body.article .breadcrumb-nav { padding-bottom: 31px; }
     Article Navigation
 \* ------------------------------------------------------------ */
 
-.article-navigation { padding: 62px 0 90px; }
+
+.article-wrapper { padding-bottom: 90px; }
+
+
+.article-navigation { padding: 62px 0 0; }
 .article-navigation .inside { padding-right: 50px; padding-left: 120px; }
 
 .an-list { padding-top: 36px; border-top: 1px solid rgba(177,177,177,.27); }
@@ -2973,3 +2977,6 @@ body.lp-exposant .newsletter-form { margin-top: 75px; }
     .focus-faq p:last-child { margin-bottom: 0; }
     .focus-faq .af-title { margin-bottom: 35px; }
 }
+
+
+.at-publication  { display: none; }

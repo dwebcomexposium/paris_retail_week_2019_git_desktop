@@ -1048,7 +1048,7 @@ li:hover > .mn-menu-submenu { display: block; }
 .image { position: relative; display: inline-block; padding-left: 67px; }
 .image:before { content: ''; position: absolute; top: -30px; right: 0; bottom: 0; left: 0; background: #fff; z-index: 5; -webkit-transition: top .5s linear; -o-transition: top .5s linear; transition: top .5s linear; }
 .image .image__inner { width: 250px; padding-top: 230%; margin-bottom: 54px; background-size: cover; background-repeat: no-repeat; background-position: center; }
-.image .image__band { position: absolute; top: 54px; bottom: 100%; left: 0; z-index: 3; width: 120px; background: #F9EB43; mix-blend-mode: multiply; -webkit-transition: bottom .8s 1.4s linear;-o-transition: bottom .8s 1.4s linear;transition: bottom .8s 1.4s linear; }
+.image .image__band { position: absolute; top: 54px; bottom: 100%; left: 0; z-index: 3; width: 120px; background: #F9EB43; mix-blend-mode: multiply; -webkit-transition: bottom .8s .7s linear;-o-transition: bottom .8s .7s linear;transition: bottom .8s .7s linear; }
 .aos-animate .image .image__band { bottom: 0; }
 
 .aos-animate .image:before { top: 100%; -webkit-transition: top 1s .6s linear; -o-transition: top 1s .6s linear; transition: top 1s .6s linear; }

@@ -652,7 +652,7 @@ li:hover > .mn-menu-submenu { display: block; }
 .focus1 a:last-child { margin-right: 0; }
 
 .focus1 a:hover,
-.focus1 a:focus, .pl-item-read-more a { border-color: #00887f; background: #00887f; }
+.focus1 a:focus { border-color: #00887f; background: #00887f; }
 
 .focus2 a, .pl-item-read-more a { position: relative; padding-right: 35px; background: none; font-size: 14px; line-height: 1.14; color: #000; font-weight: bold; text-decoration: none; text-decoration: none; }
 .focus2 a:after, .pl-item-read-more a:after { content: ''; position: absolute; top: 1px; right: 0; width: 18px; height: 14px; background: url(images/arrow-right-green.svg) center no-repeat; background-size: 100%; -webkit-transition: right .3s; -o-transition: right .3s; transition: right .3s; }
@@ -3013,6 +3013,7 @@ body.partner .partner-list i.icon.icon-plus {color: #0c0803; padding-bottom: 5px
 body.partner .partner-list i.icon.icon-minus { color: #0c0803; padding-right: 10px; padding-bottom: 10px; }
 
 
-.pl-item-read-more a { padding-top: 30px; }
+.pl-item-read-more { margin-top: 50px; }
+.pl-item-read-more a:hover { color: #00525e; }
 
-.at-publication  { display: none; }
+.at-publication, .link-read-more .icon { display: none; }

@@ -3059,7 +3059,7 @@ body.partner .partner-list i.icon.icon-minus { color: #000; padding-right: 10px;
 .error-page .intro {margin-top: 30px; }
 .error-page .global-search-form { display: none; }
 .error-page .intro p.txtcenter { padding-bottom: 20px; }
-#zone1 .section-intro { display: none; }
+.error-page #zone1 .section-intro { display: none; }
 
 
 

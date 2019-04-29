@@ -3049,6 +3049,16 @@ body.partner .partner-list i.icon.icon-minus { color: #000; padding-right: 10px;
 .search-result .global-search-form form { display: block; }
 .search-result .global-search-form form:after { content: ''; display: block; width: 100%; clear: both; }
 .search-result .gsf-fields { display: none; }
+.search-result .sr-item  { padding: 0; }
+
+
+@media (max-width: 767px) {
+    .search-result .sr-item-img { float: none; margin-right: 1.5em; width: 120px; padding: 0 0 20px;  }
+	.search-result h3 { font-size: 17px; }
+	
+}
+
+
 
 
 /* ------------------------------------------------------------ *\
@@ -3068,3 +3078,5 @@ body.partner .partner-list i.icon.icon-minus { color: #000; padding-right: 10px;
 \* ------------------------------------------------------------ */
 
 .at-publication, .link-read-more .icon { display: none; }
+
+

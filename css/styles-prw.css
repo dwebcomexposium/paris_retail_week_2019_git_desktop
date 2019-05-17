@@ -659,9 +659,11 @@ a.lien1:focus { border-color: #00887f; background: #00887f!important; color: #ff
 .focus2 a:after, .pl-item-read-more a:after, .lien2:after  { content: ''; position: absolute; top: 1px; right: 0; width: 18px; height: 14px; background: url(images/arrow-right-green.svg) center no-repeat; background-size: 100%; -webkit-transition: right .3s; -o-transition: right .3s; transition: right .3s; }
 .focus2 a:hover:after, .pl-item-read-more a:hover:after, .lien2:hover:after { right: -10px; }
 
-.style4 a { position: relative; display: inline-block; padding-left: 42px; background: none; font-size: 14px; line-height: 1.14; color: #000; font-weight: bold; text-decoration: none; -webkit-transition: opacity .3s; -o-transition: opacity .3s; transition: opacity .3s; text-decoration: none; }
-.style4 a:after { content: ''; position: absolute; top: calc(50% - 3px); left: -9px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); width: 40px; height: 40px; background: url(images/download.svg) center no-repeat; background-size: 100%; }
-.style4 a:hover { opacity: .8; }
+.style4 a, .lien4, .pdf { position: relative; display: inline-block; padding-left: 42px; background: none; font-size: 14px; line-height: 1.14; color: #000; font-weight: bold; text-decoration: none; -webkit-transition: opacity .3s; -o-transition: opacity .3s; transition: opacity .3s; text-decoration: none; }
+.style4 a:after, .lien4:after, .pdf:after { content: ''; position: absolute; top: calc(50% - 3px); left: -9px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); width: 40px; height: 40px; background: url(images/download.svg) center no-repeat; background-size: 100%; }
+.style4 a:hover, .lien4:hover, .pdf:hover { opacity: .8; }
+
+.article-content a.lien4 { background-image: none;  }
 
 @media (max-width: 767px) {
     .btn-primary { padding: 0 15px; }

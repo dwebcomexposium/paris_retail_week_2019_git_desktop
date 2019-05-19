@@ -2357,17 +2357,17 @@ body.article .breadcrumb-nav { padding-bottom: 31px; }
 .at-content .at-theme + .at-main-title { margin-top: -2px; }
 
 
-.article-intro { max-width: 1140px; padding: 0 303px 0 120px; margin: 0 auto 41px; font-size: 32px; line-height: 1.31; color: #000; }
+.article-intro { max-width: 1140px; padding: 0 203px 0 120px; margin: 0 auto 41px; font-size: 32px; line-height: 1.31; color: #000; }
 .article-intro p { line-height: 1.32; }
 .article-intro strong { font-weight: 500; }
 
 
-.article-content { max-width: 1140px; padding: 0 303px 0 120px; margin: 0 auto 89px; line-height: 1.87; }
+.article-content { max-width: 1140px; padding: 0 203px 0 120px; margin: 0 auto 89px; line-height: 1.87; }
 .article-content:last-child { margin-bottom: 0; }
 .article-content p { margin-bottom: 26px; line-height: 1.87; }
 .article-content p:last-child { margin-bottom: 0; }
-.article-content h2 { margin-top: 52px; margin-bottom: 27px; }
-.article-content h3 { margin-top: 58px; margin-bottom: 31px; color:#00AA9F; }
+.article-content h2, .list-articles .intro h2 { margin-top: 52px; margin-bottom: 27px; }
+.article-content h3, .list-articles .intro h3 { margin-top: 58px; margin-bottom: 31px; color:#00AA9F; }
 .article-content h4 { margin-top: 54px; margin-bottom: 13px; }
 
 .article-content h2:last-child, 
@@ -2471,7 +2471,7 @@ body.article .breadcrumb-nav { padding-bottom: 31px; }
     .article-content { padding-left: 220px; }
 
     .article-intro,
-    .article-content { padding-right: 260px; }
+    .article-content { padding-right: 200px; }
 
     .cl-content { margin-right: -250px; }
 }
@@ -2480,7 +2480,7 @@ body.article .breadcrumb-nav { padding-bottom: 31px; }
     .at-content .at-theme + .at-main-title { font-size: 40px; }
 
     .article-intro,
-    .article-content { padding-right: 200px; }
+    .article-content { padding-right: 150px; }
 
     .article-intro { font-size: 26px; }
 
@@ -2511,8 +2511,8 @@ body.article .breadcrumb-nav { padding-bottom: 31px; }
     .article-title { margin-bottom: 40px; }
 
     .article-content p { margin-bottom: 20px; }
-    .article-content h2 { margin-top: 35px; }
-    .article-content h3 { margin-top: 35px; }
+    .article-content h2, .list-articles .intro h2 { margin-top: 35px; }
+    .article-content h3, .list-articles .intro h3 { margin-top: 35px; }
 
     .article-content ul li + li { margin-top: 3px; }
     .article-content ul ul { padding-left: 0; margin-top: 15px; }
@@ -2557,8 +2557,8 @@ body.article .breadcrumb-nav { padding-bottom: 31px; }
     .article-content blockquote { font-size: 18px; }
     .article-content blockquote p { padding-left: 25px; }
 
-    .article-content h2 { margin-bottom: 25px; }
-    .article-content h3 { margin-bottom: 25px; }
+    .article-content h2, .list-articles .intro h2 { margin-bottom: 25px; }
+    .article-content h3, .list-articles .intro h3 { margin-bottom: 25px; }
     .article-content h4 { margin-top: 30px; }
 
     .article-content custom { padding: 50px 30px 40px; margin: 40px -30px; }
@@ -3073,6 +3073,10 @@ body.partner .partner-list i.icon.icon-minus { color: #000; padding-right: 10px;
 .error-page .intro p.txtcenter { padding-bottom: 20px; }
 .error-page #zone1 .section-intro { display: none; }
 
+
+
+body.article_list.richintro .intro { font-size: 15px;  }
+body.article_list.richintro .intro p { max-width: 720px; line-height: 2; color: #6D6D6D }
 
 
 /* ------------------------------------------------------------ *\

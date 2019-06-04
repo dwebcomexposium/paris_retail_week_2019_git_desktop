@@ -3081,35 +3081,35 @@ body.article_list.richintro .intro p { max-width: 720px; line-height: 2; color: 
 
 
 /*lp havas*/
-body.lp-havas .article-content, body.lp-havas .article-content h3 { color: #000; } 
+body.lp-havas .article-content, body.lp-havas .article-content h3 { color: #000;  } 
 body.lp-havas .site-banner, body.lp-havas .site-wrapper { background: none; }
-body.lp-havas .site-banner .header-content, body.lp-havas .breadcrumb-nav, body.lp-havas .article-navigation  { display: none; }
+body.lp-havas .site-banner .header-content, body.lp-havas .breadcrumb-nav, body.lp-havas .article-navigation, body.lp-havas .newsletter-form, body.lp-havas .site-footer, .is-stuck .date-aside { display: none; }
 
+body.lp-havas ul.style3 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 15px; }
 body.lp-havas ul.style3 li:before { display: none; }
-body.lp-havas ul.style3 li { clear: both; padding:10px 0 25px ;  }
-body.lp-havas ul.style3 figure.fl { margin: -9px 20px 0 0; }
-
-body.lp-havas h1  { font-size: 67px; }
+body.lp-havas ul.style3 li { clear: both; padding:0 15px 25px 0 ; font-size: 12px;  margin: 0; line-height: 1.4; }
+body.lp-havas ul.style3 figure.fl { margin: -4px 17px 0 0; }
+body.lp-havas p.style1 { font-size: 11px; margin-top: 50px; }
+body.lp-havas .article-intro p { font-size: 24px; }
+body.lp-havas .article-content h3 {font-size: 25px; margin: 30px 0 25px; } 
+body.lp-havas h1 { font-size: 60px; margin-bottom: 10px; }
+body.lp-havas .article-intro { margin-bottom: 20px; }
 
 @media (max-width: 1024px) {
     body.lp-havas h1  { font-size: 30px; }
 	body.lp-havas ul.style3 figure.fl { float: left; margin: 0 15px 0 0; }
-    
+	body.lp-havas a.lien2 { display: none; }
 }
 
-
 body.lp-havas .is-stuck.site-banner { padding-top: 0; border-bottom: 0; -webkit-box-shadow: none; box-shadow: none; }
-body.lp-havas a.lien1 { background: #4298d1; border: 0; font-size: 17px; padding-top: 3px; }
-
+body.lp-havas a.lien1 { background: #4298d1; border: 0; font-size: 17px; padding-top: 3px;  }
+body.lp-havas a.lien2 {  position: absolute; top: 162px; padding-top: 1px; font-weight: 500; }
 body.lp-havas { background: linear-gradient(256deg, #9ed1f3, #fff6a0);
 background-size: 400% 400%;
-
 -webkit-animation: gdient 6s ease infinite;
 -moz-animation: gdient 6s ease infinite;
 -o-animation: gdient 6s ease infinite;
-animation: gdient 6s ease infinite;
-
- }
+animation: gdient 6s ease infinite; }
 
 @-webkit-keyframes gdient {
     0%{background-position:0% 91%}
@@ -3138,4 +3138,3 @@ animation: gdient 6s ease infinite;
 \* ------------------------------------------------------------ */
 
 .at-publication, .link-read-more .icon { display: none; }
-

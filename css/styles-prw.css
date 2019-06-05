@@ -3083,7 +3083,7 @@ body.article_list.richintro .intro p { max-width: 720px; line-height: 2; color: 
 /*lp havas*/
 body.lp-havas .article-content, body.lp-havas .article-content h3 { color: #000;  } 
 body.lp-havas .site-banner, body.lp-havas .site-wrapper { background: none; }
-body.lp-havas .site-banner .header-content, body.lp-havas .breadcrumb-nav, body.lp-havas .article-navigation, body.lp-havas .newsletter-form, body.lp-havas .site-footer, .is-stuck .date-aside { display: none; }
+body.lp-havas .site-banner .header-content, body.lp-havas .breadcrumb-nav, body.lp-havas .article-navigation, body.lp-havas .newsletter-form, body.lp-havas .site-footer, .is-stuck .date-aside { display: none!important; }
 
 body.lp-havas ul.style3 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 15px; }
 body.lp-havas ul.style3 li:before { display: none; }
@@ -3092,8 +3092,10 @@ body.lp-havas ul.style3 figure.fl { margin: -4px 17px 0 0; }
 body.lp-havas p.style1 { font-size: 11px; margin-top: 50px; }
 body.lp-havas .article-intro p { font-size: 24px; }
 body.lp-havas .article-content h3 {font-size: 25px; margin: 30px 0 25px; } 
-body.lp-havas h1 { font-size: 60px; margin-bottom: 10px; }
+body.lp-havas h1 { font-size: 60px;  }
 body.lp-havas .article-intro { margin-bottom: 20px; }
+body.lp-havas .at-content { margin-bottom: 30px; }
+
 
 @media (max-width: 1024px) {
     body.lp-havas h1  { font-size: 30px; }
@@ -3103,7 +3105,8 @@ body.lp-havas .article-intro { margin-bottom: 20px; }
 
 body.lp-havas .is-stuck.site-banner { padding-top: 0; border-bottom: 0; -webkit-box-shadow: none; box-shadow: none; }
 body.lp-havas a.lien1 { background: #4298d1; border: 0; font-size: 17px; padding-top: 3px;  }
-body.lp-havas a.lien2 {  position: absolute; top: 162px; padding-top: 1px; font-weight: 500; }
+body.lp-havas p.style1 a.lien1 {  position: absolute; top: 500px; padding-top: 1px; font-weight: 500; margin-left: 600px;}
+body.lp-havas .lien3 { display: block; margin: 70px 0; background: none; }
 body.lp-havas { background: linear-gradient(256deg, #9ed1f3, #fff6a0);
 background-size: 400% 400%;
 -webkit-animation: gdient 6s ease infinite;
@@ -3138,3 +3141,4 @@ animation: gdient 6s ease infinite; }
 \* ------------------------------------------------------------ */
 
 .at-publication, .link-read-more .icon { display: none; }
+

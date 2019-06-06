@@ -3096,13 +3096,6 @@ body.lp-havas h1 { font-size: 60px;  }
 body.lp-havas .article-intro { margin-bottom: 20px; }
 body.lp-havas .at-content { margin-bottom: 30px; }
 
-
-@media (max-width: 1024px) {
-    body.lp-havas h1  { font-size: 30px; }
-	body.lp-havas ul.style3 figure.fl { float: left; margin: 0 15px 0 0; }
-	body.lp-havas a.lien2 { display: none; }
-}
-
 body.lp-havas .is-stuck.site-banner { padding-top: 0; border-bottom: 0; -webkit-box-shadow: none; box-shadow: none; }
 body.lp-havas a.lien1 { background: #4298d1; border: 0; font-size: 17px; padding-top: 3px;  }
 body.lp-havas p.style1 a.lien1 {  position: absolute; top: 500px; padding-top: 1px; font-weight: 500; margin-left: 600px;}
@@ -3135,9 +3128,31 @@ animation: gdient 6s ease infinite; }
     100%{background-position:0% 91%}
 }
 
+@media (max-width: 1500px) {
+body.lp-havas p.style1 a.lien1 {  top: 495px; margin-left: 580px;}
+
+}
+
+@media (max-width: 1400px) {
+body.lp-havas p.style1 a.lien1 {  top: 468px; margin-left: 510px;}
+}
+
+@media (max-width: 1124px) {
+body.lp-havas p.style1 a.lien1 {  display: none; }
+}
+
+@media (max-width: 1024px) {
+    body.lp-havas h1  { font-size: 30px; }
+	body.lp-havas ul.style3 figure.fl { float: left; margin: 0 15px 0 0; }
+}
+
+
+
+
 
 /* ------------------------------------------------------------ *\
     Div
 \* ------------------------------------------------------------ */
 
 .at-publication, .link-read-more .icon { display: none; }
+

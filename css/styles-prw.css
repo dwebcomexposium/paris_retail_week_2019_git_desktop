@@ -1748,7 +1748,7 @@ a.lien1:focus { border-color: #00887f; background: #00887f!important; color: #ff
     Newsletter
 \* ------------------------------------------------------------ */
 
-.newsletter-form { margin-top: 90px; }
+.newsletter-form { margin-top: 90px; display: block!important; }
 
 .nf-main-content { padding: 91px 0 85px; margin: 0; background: #F1F1F1; font-size: 16px; line-height: 1.88; color: #000; }
 .nf-title { width: 50%; padding-right: 20px; margin-bottom: 15px !important; font-size: 32px; line-height: 1.19; color: #000; }
@@ -3145,10 +3145,6 @@ body.lp-havas p.style1 a.lien1 {  display: none; }
     body.lp-havas h1  { font-size: 30px; }
 	body.lp-havas ul.style3 figure.fl { float: left; margin: 0 15px 0 0; }
 }
-
-
-
-
 
 /* ------------------------------------------------------------ *\
     Div

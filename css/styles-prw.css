@@ -1357,6 +1357,10 @@ a.lien1:focus { border-color: #00887f; background: #00887f!important; color: #ff
  .pub-inner img { width: 75%; }
 }
 
+@media (max-width: 1024px) {
+     .pub-inner { display: none; }
+}
+
 
 
 @media (max-width: 1400px) {

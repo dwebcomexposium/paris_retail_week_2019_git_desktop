@@ -1354,7 +1354,7 @@ a.lien1:focus { border-color: #00887f; background: #00887f!important; color: #ff
 
 
 @media (max-width: 1570px) {
- .pub-inner img { width: 75%; }
+ .pub-inner img { width: 65%; }
 }
 
 @media (max-width: 1024px) {

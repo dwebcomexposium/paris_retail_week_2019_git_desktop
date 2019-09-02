@@ -3173,12 +3173,26 @@ body.lp-badge .site-banner .header-content, body.lp-badge .breadcrumb-nav, body.
 
 body.lp-badge ul.style3, body.lp-badge ul.style2 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 15px; }
 body.lp-badge ul.style3 li:before, body.lp-badge ul.style2 li:before { display: none; }
-body.lp-badge ul.style3 li, body.lp-badge ul.style2 li { padding:0 15px 25px 0 ; margin: 0; line-height: 1.7; text-align: center; width: 33.3%; }
-body.lp-badge ul.style2 li { width: 50%; }
+body.lp-badge ul.style3 li, body.lp-badge ul.style2 li { padding:0 35px 25px 0 ; margin: 0; line-height: 1.7; text-align: center; width: 33.3%; }
+body.lp-badge ul.style2 li { width: 50%; text-align: left; padding-left: 14px; }
+body.lp-badge ul.style3 strong { color:  #000; }
+
+
+body.lp-badge ul.style2 li:after {
+	content: ''; position: absolute; top: -10px; left: 0; bottom: 65px; width: 25px; background: #f9eb43;
+	mix-blend-mode: multiply;
+	-webkit-transition: bottom .8s 1.4s linear;
+	-o-transition: bottom .8s 1.4s linear;
+	transition: bottom .8s 1.4s linear;
+	z-index: -200;
+}
+
+
+
 body.lp-badge .article-content ul li + li { margin-top: 0; }
 
 body.lp-badge ul.style3 figure.center {padding-bottom: 20px; }
-body.lp-badge ul.style2 figure.center {padding-top: 20px; }
+body.lp-badge ul.style2 figure {padding-top: 30px; margin-bottom: -19px; }
 
 body.lp-badge p.style1 { font-size: 11px; margin-top: 50px; }
 body.lp-badge .article-intro p { font-size: 24px; padding-bottom: 15px; }
@@ -3188,7 +3202,7 @@ body.lp-badge .at-content { margin-bottom: 10px; }
 
 body.lp-badge .is-stuck.site-banner { padding-top: 0; border-bottom: 0; -webkit-box-shadow: none; box-shadow: none; }
 body.lp-badge a.lien1 { border: 0; font-size: 17px; padding-top: 3px;  }
-body.lp-badge p.style1 a.lien1 {  position: absolute; top: 490px; padding-top: 1px; font-weight: 500; margin-left: 65px;  }
+body.lp-badge p.style1 a.lien1 {  position: absolute; top: 590px; padding-top: 1px; font-weight: 900; margin-left: 65px;  }
 body.lp-badge .lien3 { display: block; margin: 70px 0; background: none; }
 
 
@@ -3200,12 +3214,12 @@ body.lp-badge .pub-inner { display: none; }
 
 
 @media (max-width: 1500px) {
-body.lp-badge p.style1 a.lien1 {  top: 480px; }
+body.lp-badge p.style1 a.lien1 {  top: 570px; }
 
 }
 
 @media (max-width: 1400px) {
-body.lp-badge p.style1 a.lien1 {  top: 440px; }
+body.lp-badge p.style1 a.lien1 {  top: 540px; }
 }
 
 @media (max-width: 1124px) {
@@ -3213,8 +3227,7 @@ body.lp-badge p.style1 a.lien1 {  top: 470px; margin-left: 80px; }
 }
 
 @media (max-width: 1024px) {
-	body.lp-badge p.style1 a.lien1 {  position: relative; top: auto; margin: 0;
-	}
+	body.lp-badge p.style1 a.lien1 {  position: relative; top: auto; margin: 0; font-size: 13px; }
 	
 }
 

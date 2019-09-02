@@ -3192,11 +3192,14 @@ body.lp-badge ul.style2 li:after {
 body.lp-badge .article-content ul li + li { margin-top: 0; }
 
 body.lp-badge ul.style3 figure.center {padding-bottom: 20px; }
-body.lp-badge ul.style2 figure {padding-top: 30px; margin-bottom: -19px; }
+body.lp-badge ul.style2 figure {padding-top: 37px; margin-bottom: -22px; }
 
 body.lp-badge p.style1 { font-size: 11px; margin-top: 50px; }
 body.lp-badge .article-intro p { font-size: 24px; padding-bottom: 15px; }
-body.lp-badge .article-content h3 {font-size: 25px; margin: 30px 0 25px; } 
+body.lp-badge .article-content h3 {font-size:27px; margin: 30px 0 25px; color: #000; } 
+body.lp-badge .article-content h2 {color: #00AA9F; font-size: 30px; margin-top: 70px;
+} 
+
 body.lp-badge .article-intro { margin-bottom: 20px; }
 body.lp-badge .at-content { margin-bottom: 10px; }
 

@@ -3230,9 +3230,18 @@ body.lp-badge p.style1 a.lien1 {  top: 470px; margin-left: 80px; }
 }
 
 @media (max-width: 1024px) {
-	body.lp-badge p.style1 a.lien1 {  position: relative; top: auto; margin: 0; font-size: 13px; }
+	body.lp-badge a.lien1 { margin: 0; font-size: 13px; }
+	body.lp-badge p.style1 a.lien1 {  position: relative; top: auto; margin: 0; }
+	body.lp-badge ul.style3, body.lp-badge ul.style2 { flex-direction: column; }
+	body.lp-badge ul.style3 li, body.lp-badge ul.style2 li { width: 100%; }
+	body.lp-badge ul.style2 li + li { margin-top: 50px; }
+	
+	
 	
 }
+
+
+
 
 
 /* ------------------------------------------------------------ *\

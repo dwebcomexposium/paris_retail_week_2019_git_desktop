@@ -3173,7 +3173,7 @@ body.lp-badge .site-banner .header-content, body.lp-badge .breadcrumb-nav, body.
 
 body.lp-badge ul.style3, body.lp-badge ul.style2 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 15px; }
 body.lp-badge ul.style3 li:before, body.lp-badge ul.style2 li:before { display: none; }
-body.lp-badge ul.style3 li, body.lp-badge ul.style2 li { padding:0 35px 25px 0 ; margin: 0; line-height: 1.7; text-align: center; width: 33.3%; }
+body.lp-badge ul.style3 li, body.lp-badge ul.style2 li { padding:0 35px 25px 0 ; margin: 0; line-height: 1.7; text-align: center; width: 33.3%; font-size: 17px; }
 body.lp-badge ul.style2 li { width: 50%; text-align: left; padding-left: 14px; }
 body.lp-badge ul.style3 strong { color:  #000; }
 
@@ -3196,8 +3196,8 @@ body.lp-badge ul.style2 figure {padding-top: 37px; margin-bottom: -22px; }
 
 body.lp-badge p.style1 { font-size: 11px; margin-top: 50px; }
 body.lp-badge .article-intro p { font-size: 24px; padding-bottom: 15px; }
-body.lp-badge .article-content h3 {font-size:27px; margin: 30px 0 25px; color: #000; } 
-body.lp-badge .article-content h2 {color: #00AA9F; font-size: 30px; margin-top: 70px;
+body.lp-badge .article-content h3 {font-size:27px; margin: 30px 0 35px; color: #000; } 
+body.lp-badge .article-content h2 {color: #00AA9F; font-size: 30px; margin: 70px 0 40px;
 } 
 
 body.lp-badge .article-intro { margin-bottom: 20px; }
@@ -3233,9 +3233,6 @@ body.lp-badge p.style1 a.lien1 {  top: 470px; margin-left: 80px; }
 	body.lp-badge p.style1 a.lien1 {  position: relative; top: auto; margin: 0; font-size: 13px; }
 	
 }
-
-
-
 
 
 /* ------------------------------------------------------------ *\

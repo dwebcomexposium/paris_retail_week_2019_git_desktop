@@ -3250,7 +3250,7 @@ body.lp-badge p.style1 a.lien1 {  top: 470px; margin-left: 80px; }
 
 body.lp-equipmag #bs_root {display: none!important}
 
-body.lp-equipmag { background: #fff url('images/bg-equipmag-new.jpg') no-repeat center top; background-size: 100% auto; }
+body.lp-equipmag { background: #fff url('images/bg-equipmag-new.jpg') no-repeat center top; background-size: 100% auto; font-size: 17px; }
 body.lp-equipmag .article-content { padding: 75px 358px 0 65px; margin: 0 auto 89px; line-height: 1.87; }
 body.lp-equipmag #main { margin-top: 290px; }
 body.lp-equipmag .logo-equipmag { max-width: 1140px;  position: absolute; top: -150px; }

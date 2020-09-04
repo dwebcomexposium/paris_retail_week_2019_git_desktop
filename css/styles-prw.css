@@ -3433,7 +3433,7 @@ header.aos-animate ~ main .slider-prw {
     line-height: 1.65; 
     font-size: 20px;
     max-width: 900px;
-    font-weight: 300; 
+    font-weight: normal; 
     margin-bottom: 52px; 
 }
 .slider-prw ~ .section__actions .btn-primary + .btn-primary {
@@ -3641,3 +3641,6 @@ header.aos-animate ~ main .slider-prw {
 \* ------------------------------------------------------------ */
 
 .at-publication, .link-read-more .icon { display: none; }
+
+
+

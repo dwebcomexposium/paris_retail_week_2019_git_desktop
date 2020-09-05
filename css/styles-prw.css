@@ -3351,8 +3351,9 @@ header.aos-animate ~ main .slider-prw {
     position: absolute;
     left: 0;
     top: 0;
-    width: 93.5%;
+    width: 75.5%;
     height: calc(100% - 80px);
+    background-image: -webkit-linear-gradient( left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
     background-image: linear-gradient( to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
     z-index: 2; 
 }
@@ -3366,8 +3367,26 @@ header.aos-animate ~ main .slider-prw {
     transform:translate(0);
     width: 93.5%;
     display: block; 
-    filter: grayscale(100%);
+/*    filter: grayscale(100%);*/
 }
+
+
+/*.slider-hero {
+    position: relative;   }
+
+.slider-hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 93.5%;
+	height: 628px;
+    bottom: 0; 
+    background-color: #000; 
+    z-index: 0; 
+   }
+   */
+   
 .slider-prw .la-item-content {
     display: flex; 
     justify-content:center;
@@ -3440,7 +3459,8 @@ header.aos-animate ~ main .slider-prw {
     margin-left: 49px; 
 }
 .slider-prw .slider__nav {
-    position: relative;
+    position: absolute;
+	bottom: 30px;
     z-index: 3; 
 }
 .slider-prw .slider__nav a {
@@ -3451,7 +3471,7 @@ header.aos-animate ~ main .slider-prw {
     background-color: white; 
     position: relative;
     border-radius: 50%;
-    box-shadow: 0px 0px 3px  rgba(0, 0, 0, 1); 
+/*    box-shadow: 0px 0px 3px  rgba(0, 0, 0, 1); */
     transition: background 0.3s;
 }
 .slider-prw .slider__nav a:hover {
@@ -3476,8 +3496,8 @@ header.aos-animate ~ main .slider-prw {
 .slider-prw .la-item-title,
 .slider-prw .la-item-btn { transform: translateY(50px); opacity: 0; transition: transform 0.3s ,opacity 0.3s; }
 .slider-prw .la-item-tag   { transition-delay: 0s; }
-.slider-prw .la-item-title { transition-delay: 0.3s; }
-.slider-prw .la-item-btn   { transition-delay: 0.8s; }
+.slider-prw .la-item-title { transition-delay: 0.15s; }
+.slider-prw .la-item-btn   { transition-delay: 0.3s; }
 .slider-prw .la-item.current .la-item-tag,
 .slider-prw .la-item.current .la-item-title,
 .slider-prw .la-item.current .la-item-btn { transform: translateY(0); opacity: 1; }
@@ -3634,6 +3654,8 @@ header.aos-animate ~ main .slider-prw {
         bottom: 0; 
     }
 }
+
+
 
 
 /* ------------------------------------------------------------ *\

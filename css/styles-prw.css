@@ -3454,7 +3454,7 @@ header.aos-animate ~ main .slider-prw {
     line-height: 1.65; 
     font-size: 20px;
     max-width: 900px;
-    font-weight: 300; 
+    font-weight: normal; 
     margin-bottom: 52px; 
 }
 

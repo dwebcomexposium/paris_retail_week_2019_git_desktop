@@ -1993,8 +1993,8 @@ a.lien1:focus { border-color: #00887f; background: #00887f!important; color: #ff
 .socials li a:hover { opacity: .8; }
 
 @media (max-width: 767px) {
-    .socials ul { margin: 0 -25px; }
-    .socials li { padding: 0 25px; }
+    .socials ul { margin: 0 -20px; }
+    .socials li { padding: 0 20px; }
 }
 
 /* ------------------------------------------------------------ *\
@@ -3630,11 +3630,11 @@ header.aos-animate ~ main .slider-prw {
 }
 
 @media (max-width: 767px){
-    #zone1 {
+    .front #zone1 {
         padding: 5px 0;
     }
     
-    #zone1 .date-aside {
+   .front  #zone1 .date-aside {
         margin-bottom: -65px; 
     }
 

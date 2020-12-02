@@ -2390,8 +2390,9 @@ body.article .breadcrumb-nav { padding-bottom: 31px; }
 .article-content p:last-child { margin-bottom: 0; }
 .article-content h2, .list-articles .intro h2 { margin-top: 52px; margin-bottom: 27px; }
 .article-content h3, .list-articles .intro h3 { margin-top: 58px; margin-bottom: 31px; color:#00AA9F; }
-.article-content h4 { margin-top: 54px; margin-bottom: 13px; font-size: 20px; font-weight: 700; line-height: 1.6;
-}
+.article-content h4 { margin-top: 54px; margin-bottom: 13px; font-size: 20px; font-weight: 700; line-height: 1.6; }
+.article-content ul.style2 h4 { margin-top: 0;}
+
 
 .article-content h2:last-child, 
 .article-content h3:last-child, 

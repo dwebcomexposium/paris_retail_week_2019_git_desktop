@@ -3169,6 +3169,26 @@ body.lp-havas p.style1 a.lien1 {  display: none; }
 
 
 
+
+
+/*2 cols article*/
+
+ul.style2 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 15px; margin: 73px -353px 124px 0;}
+ul.style2 li:before { display: none; }
+ul.style2 li { padding:0 50px 0 0 ; margin: 0!important; width: 50%; }
+
+
+ul.style2 li .focus1 a, a.lien1 { font-size: 13px; }
+
+@media (max-width: 1024px) {
+ul.style2 { flex-direction: column; margin: 0; }
+ul.style2 li { width: 100%; padding: 0 0 50px; }
+}
+
+
+
+
+
 /*lp badge*/
 
 
@@ -3630,11 +3650,11 @@ header.aos-animate ~ main .slider-prw {
 }
 
 @media (max-width: 767px){
-    .front #zone1 {
+    #zone1 {
         padding: 5px 0;
     }
     
-   .front  #zone1 .date-aside {
+    .front #zone1 .date-aside {
         margin-bottom: -65px; 
     }
 

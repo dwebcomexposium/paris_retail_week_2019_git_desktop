@@ -3765,4 +3765,61 @@ header.aos-animate ~ main .slider-prw {
 
 }
 
+
+/* ------------------------------------------------------------ *\
+    lp connect
+\* ------------------------------------------------------------ */
+
+body.lp-connect #zone1 {background: #1C242D url('images/prw-connect-wave.svg') no-repeat right top; padding-bottom: 20px; }
+body.lp-connect .section-intro .section__content h1 {color: #fff; text-transform: uppercase; font-weight: 900; font-size: 50px; margin-bottom: 30px; padding: 0; }
+body.lp-connect .section-intro .section__content h2, body.lp-connect .section-intro .section__content p {color: #fff; }
+body.lp-connect .section-intro .section__content h3 {color: #F9EB43; font-weight: 700; font-size: 19px; margin-bottom: 20px; }
+body.lp-connect .section-intro .section__content li {color: #fff; font-size: 19px; margin-top: 5px;}
+body.lp-connect .section-intro .section__content .cols {padding-bottom: 50px; }
+body.lp-connect .section-intro .inside { min-height: 400px; }
+body.lp-connect .image:before { background: #1C242D; } 
+body.lp-connect .section-intro--quaternary .col {width: 42%; }
+
+
+body.lp-connect .video { margin: 80px 50px; }
+body.lp-connect .video h3 { font-size: 19px; }
+
+body.lp-connect .list-articles { background: #EBF5EF; padding: 100px 0; }
+
+body.lp-connect .gla-item-title { background: #1C242D url('images/prw-connect-wave-programme.svg') no-repeat right top; background-size: cover; min-height: 170px; color: #fff; font-size: 30px; font-weight: 900; text-align: center; display: flex; align-items: center; line-height: 1.2; padding: 10px; }
+
+
+body.lp-connect .gla-item > a:hover .gla-item-title, 
+body.lp-connect .gla-item > a:focus .gla-item-title { color: #F9EB43; }
+
+body.lp-connect .gla-item-desc { color: #000; }
+body.lp-connect .cols h2 { font-size: 32px; }
+
+body.lp-connect .article-content .col:first-child {padding-right:120px; }
+body.lp-connect .article-content a:hover { border-color: #00887f; background: #00887f;  }
+
+body.lp-connect .edito  {background: none; padding: 0 0 50px; }
+body.lp-connect .edito .inside { position: relative; max-width: 100%; padding: 0; margin-left: 0; }
+body.lp-connect .edito, .edito h2 { color: #000; }
+body.lp-connect .edito h2 { max-width: 100%; margin-bottom: 41px; font-size: 40px; line-height: 1.19; margin-top: 0; }
+body.lp-connect .edito h4 {margin-top: 30px; }
+
+
+
+@media (max-width: 767px){
+
+body.lp-connect .section__aside {display: none; }
+body.lp-connect .section-intro--quaternary .cols, body.lp-connect .article-content .cols {display: flex; flex-direction: column;  }
+body.lp-connect .section-intro--quaternary .col, body.lp-connect .article-content .col {width: 100%; }
+body.lp-connect .article-content .col:first-child {padding-right:0; }
+body.lp-connect .article-content .cols {padding-bottom: 50px; }
+
+body.lp-connect .gla-item { border: 0; }
+
+body.lp-connect .gla-item-desc { display: block; padding-top: 15px; }
+body.lp-connect .gla-item-content { min-height: auto; width: calc(100% - 10px); padding-bottom: 0; padding-left: 0; }
+
+ }
+
+
 .at-publication, .link-read-more .icon { display: none; }

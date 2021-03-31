@@ -3800,7 +3800,7 @@ body.lp-connect .article-content a:hover { border-color: #00887f; background: #0
 
 body.lp-connect .edito  {background: none; padding: 0 0 50px; }
 body.lp-connect .edito .inside { position: relative; max-width: 100%; padding: 0; margin-left: 0; }
-body.lp-connect .edito, .edito h2 { color: #000; }
+body.lp-connect .edito, body.lp-connect  .edito h2 { color: #000; }
 body.lp-connect .edito h2 { max-width: 100%; margin-bottom: 41px; font-size: 40px; line-height: 1.19; margin-top: 0; }
 body.lp-connect .edito h4 {margin-top: 30px; }
 body.lp-connect .cols h2 { font-size: 32px; }

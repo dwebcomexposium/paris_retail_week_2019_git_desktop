@@ -540,7 +540,7 @@ li:hover > .mn-menu-submenu { display: block; }
     .mn-item-lvl-1 > .mn-link { font-size: 13px; }
 
     .main-navigation > .mn-menu-line > ul { margin: 0 -20px; }
-    .main-navigation > .mn-menu-line > ul > li { padding: 0 20px; }
+    .main-navigation > .mn-menu-line > ul > li { padding: 0 10px; }
 
     
     .mn-item-lvl-2 > a.mn-link { padding: 15px 25px 15px 30px; }

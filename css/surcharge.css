@@ -1,3 +1,11 @@
 @charset "utf-8";
 /* CSS Document - Surcharge css Agence */
 
+.icon.icon-play {
+    display: inline-block;
+    width: 22px;
+    height: 18px;
+    margin-right: 0;
+    background: url(img/fond-badge.png) no-repeat center;
+    background-size: 100%;
+}

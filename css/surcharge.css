@@ -7,5 +7,8 @@
     height: 18px;
     margin-right: 0;
     background: url(img/fond-badge.png) no-repeat center;
-    background-size: 100%;
+    background-size: 60%;
+}
+.icon-play:before {
+    content: none;
 }

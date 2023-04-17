@@ -1431,7 +1431,7 @@ a.lien1:focus { border-color: #00887f; background: #00887f!important; color: #ff
 
 .gla-item { width: 33.33%; padding: 0 37px; margin: 0; -webkit-box-shadow: none; box-shadow: none; }
 .gla-item:nth-child(n+4) { margin-top: 90px; }
-.gla-item a { text-decoration: none; }
+.gla-item a:first-child { text-decoration: none; }
 .gla-item .image-wrapper { margin-bottom: 33px; overflow: hidden; text-align: center; }
 .gla-item .image-wrapper:last-child { margin-bottom: 0; }
 .gla-item .image-wrapper img { -webkit-transition: -webkit-transform .3s; transition: -webkit-transform .3s; -o-transition: transform .3s; transition: transform .3s; transition: transform .3s, -webkit-transform .3s; }
@@ -3858,7 +3858,7 @@ body.lp-connect .gla-item-content { min-height: auto; width: calc(100% - 10px); 
 /*Speaker */
 
 .speaker-home { padding: 136px 0 124px; margin: 20px 0 0 !important; background: #fafafa; }
-.speaker-home .gla-item a { background: #ffffff; padding-bottom: 10px }
+.speaker-home .gla-item a:first-child { background: #ffffff!important; padding-bottom: 10px }
 .speaker-home .gla-item-content { margin: 0 30px; padding-bottom: 10px; min-height: 200px; }
 .speaker-home .gla-item-content .gla-item-btn {display: none; }
 .speaker-home .gla-item-title { min-height: 72px; margin-bottom:10px !important; font-size: 30px; line-height: 1.2; color: #00AA9F; font-weight: 700; word-spacing: 900px; }
@@ -3869,6 +3869,14 @@ body.lp-connect .gla-item-content { min-height: auto; width: calc(100% - 10px); 
 .speaker-home .gla-item-desc { color: #000; line-height: 1.1; }
 .speaker-home .gla-item-desc strong { font-weight: 700; font-size: 17px; }
 .speaker-home .cl-item-photo:before { content: ''; position: absolute; top: -11px; left: -8px; width: 21px; height: 75px; background: #F9EB43; mix-blend-mode: multiply; }
+.speaker-home .gla-item-desc em { text-align: right; position: absolute; top: -75px; right: -30px; margin-bottom: 0; }
+.speaker-home .gla-item-desc em strong {  background: #F9EB43; font-style: normal; font-size: 14px; line-height: 0.9; padding: 7px 10px;  }
+
+
+.mentors .speaker-home .gla-item .image-wrapper:before {z-index: 2; opacity: .9; top: -15px; left: 20px; width: 36px; height: 60px; }
+
+
+   
 
 
 

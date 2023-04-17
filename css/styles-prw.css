@@ -3857,8 +3857,8 @@ body.lp-connect .gla-item-content { min-height: auto; width: calc(100% - 10px); 
 
 /*Speaker */
 
-.speaker-home { padding: 136px 0 124px; margin: 20px 0 0 !important; background: #fafafa; }
-.speaker-home .gla-item a:first-child { background: #ffffff!important; padding-bottom: 10px }
+#zone2 .speaker-home { padding: 136px 0 124px; margin: 20px 0 0 !important; background: #fafafa; }
+#zone2 .speaker-home .gla-item a:first-child { background: #ffffff!important; padding-bottom: 10px }
 .speaker-home .gla-item-content { margin: 0 30px; padding-bottom: 10px; min-height: 200px; }
 .speaker-home .gla-item-content .gla-item-btn {display: none; }
 .speaker-home .gla-item-title { min-height: 72px; margin-bottom:10px !important; font-size: 30px; line-height: 1.2; color: #00AA9F; font-weight: 700; word-spacing: 900px; }

@@ -3884,7 +3884,7 @@ body.lp-connect .gla-item-content { min-height: auto; width: calc(100% - 10px); 
 .speaker-home .gla-item-desc em strong {  background: #F9EB43; font-style: normal; font-size: 14px; line-height: 0.9; padding: 7px 10px;  }
 
 
-.mentors .speaker-home .gla-item .image-wrapper:before {z-index: 2; opacity: .9; top: -15px; left: 20px; width: 36px; height: 60px; }
+.mentors.speaker-home .gla-item .image-wrapper:before {z-index: 2; opacity: .9; top: -15px; left: 20px; width: 36px; height: 60px; }
 
 
    
@@ -3904,12 +3904,12 @@ body.lp-connect .gla-item-content { min-height: auto; width: calc(100% - 10px); 
     .speaker-home .gla-item-content { min-height: auto; width: calc(100% - 100px); padding-bottom: 0; padding-left: 20px; }
     .speaker-home .gla-item-title { margin-bottom: 0 !important; min-height: auto; }
     .speaker-home .gla-item .image-wrapper:before { width: 16px; height: 37px; right: -2px; top: -8px; 	}
-	.mentors .speaker-home .gla-item .image-wrapper:before {display: none; }
+	.mentors.speaker-home .gla-item .image-wrapper:before {display: none; }
 	.speaker-home .gla-item-desc em { text-align: left; position: absolute; top: -18px; left: -100px; margin-bottom: 0; }
 	.speaker-home .gla-item-desc em strong {  background: #F9EB43; font-style: normal; font-size: 12px; line-height: 0.9; padding: 4px 6px;  }
-	.mentors  .speaker-home .gla-item-title { padding-top: 10px; }
+	.mentors.speaker-home .gla-item-title { padding-top: 10px; }
 	#zone2 .speaker-home .gla-item a:first-child { background: none; }
-	.mentors .speaker-home .gla-item .image-wrapper { margin-top: 10px; 	}
+	.mentors.speaker-home .gla-item .image-wrapper { margin-top: 10px; 	}
 
 
 	

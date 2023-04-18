@@ -3847,7 +3847,11 @@ body.lp-connect .gla-item-content { min-height: auto; width: calc(100% - 10px); 
 .header-box .ico-eye--right { left: 30px; }
 .header-box__image { position: absolute; top: 34px; left: 27px; width: 48px; transition: top .3s; }
 .header-box__entry { transition: padding 1s; }
-.is-fixed .header-box, .is-stuck .header-box { top: 170px;  }
+.is-stuck .header-box { top:  170px; }
+
+.is-fixed .header-box a, .is-stuck .header-box a { width: 120px; height: 120px;  }
+.is-fixed .header-box a svg, .is-stuck .header-box a svg {width: 100px; height: 100px; }
+
 
 
 .header-box svg { width: 140px; height: 140px; }
@@ -3855,8 +3859,6 @@ body.lp-connect .gla-item-content { min-height: auto; width: calc(100% - 10px); 
 @media (max-width: 1024px) {
 	.header-box a {width: 120px; height: 120px; }
 	.header-box a svg {width: 100px; height: 100px; }
-
-
 	.is-fixed .header-box, .is-stuck .header-box { display: none;  }
 }
 

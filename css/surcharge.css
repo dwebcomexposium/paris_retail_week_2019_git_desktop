@@ -12,7 +12,8 @@
 .icon-play:before {
     content: none;
 }
-@media screen and (min-width: 1200px)
+@media screen and (min-width: 1200px){
 iframe {
     max-width: initial;
+}
 }
